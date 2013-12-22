@@ -28,6 +28,7 @@
 		D262BBA81867788A00ED9642 /* UIColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D262BBA71867788A00ED9642 /* UIColorTests.m */; };
 		D262BBAB18677B9A00ED9642 /* UIView+SPYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D262BBAA18677B9A00ED9642 /* UIView+SPYKit.m */; };
 		D262BBAD18677C4500ED9642 /* UIViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D262BBAC18677C4500ED9642 /* UIViewTests.m */; };
+		D262BBB01867838C00ED9642 /* UIViewController+SPYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D262BBAF1867838C00ED9642 /* UIViewController+SPYKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		D262BBA918677B9A00ED9642 /* UIView+SPYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SPYKit.h"; sourceTree = "<group>"; };
 		D262BBAA18677B9A00ED9642 /* UIView+SPYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SPYKit.m"; sourceTree = "<group>"; };
 		D262BBAC18677C4500ED9642 /* UIViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewTests.m; sourceTree = "<group>"; };
+		D262BBAE1867838C00ED9642 /* UIViewController+SPYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SPYKit.h"; sourceTree = "<group>"; };
+		D262BBAF1867838C00ED9642 /* UIViewController+SPYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SPYKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +221,8 @@
 				D262BB9E18676C2800ED9642 /* UIColor+SPYKit.m */,
 				D262BBA918677B9A00ED9642 /* UIView+SPYKit.h */,
 				D262BBAA18677B9A00ED9642 /* UIView+SPYKit.m */,
+				D262BBAE1867838C00ED9642 /* UIViewController+SPYKit.h */,
+				D262BBAF1867838C00ED9642 /* UIViewController+SPYKit.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -371,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D262BBB01867838C00ED9642 /* UIViewController+SPYKit.m in Sources */,
 				D262BBAB18677B9A00ED9642 /* UIView+SPYKit.m in Sources */,
 				D262BB9918676AF100ED9642 /* NSString+SPYKit.m in Sources */,
 				D262BB9F18676C2800ED9642 /* UIColor+SPYKit.m in Sources */,
