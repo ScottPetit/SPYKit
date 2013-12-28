@@ -29,6 +29,7 @@
 		D262BBAB18677B9A00ED9642 /* UIView+SPYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D262BBAA18677B9A00ED9642 /* UIView+SPYKit.m */; };
 		D262BBAD18677C4500ED9642 /* UIViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D262BBAC18677C4500ED9642 /* UIViewTests.m */; };
 		D262BBB01867838C00ED9642 /* UIViewController+SPYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D262BBAF1867838C00ED9642 /* UIViewController+SPYKit.m */; };
+		D2C4D3D0186EF35B0094508E /* SPYUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C4D3CF186EF35B0094508E /* SPYUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		D262BBAC18677C4500ED9642 /* UIViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewTests.m; sourceTree = "<group>"; };
 		D262BBAE1867838C00ED9642 /* UIViewController+SPYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SPYKit.h"; sourceTree = "<group>"; };
 		D262BBAF1867838C00ED9642 /* UIViewController+SPYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SPYKit.m"; sourceTree = "<group>"; };
+		D2C4D3CE186EF35B0094508E /* SPYUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPYUtility.h; sourceTree = "<group>"; };
+		D2C4D3CF186EF35B0094508E /* SPYUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPYUtility.m; sourceTree = "<group>"; };
 		D2D6C6DF186ECAB40030DCE3 /* SPYDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,6 +192,8 @@
 				D262BB9618676AC400ED9642 /* UIKit */,
 				D262BBA6186771C100ED9642 /* SPYBlocks.h */,
 				D2D6C6DF186ECAB40030DCE3 /* SPYDefines.h */,
+				D2C4D3CE186EF35B0094508E /* SPYUtility.h */,
+				D2C4D3CF186EF35B0094508E /* SPYUtility.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -385,6 +390,7 @@
 				D262BB8E18676A3C00ED9642 /* main.m in Sources */,
 				D262BB9C18676B9C00ED9642 /* NSDictionary+SPYKit.m in Sources */,
 				D262BB8C18676A3C00ED9642 /* SPYAppDelegate.m in Sources */,
+				D2C4D3D0186EF35B0094508E /* SPYUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
