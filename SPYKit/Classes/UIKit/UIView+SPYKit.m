@@ -74,4 +74,9 @@ static NSInteger const kAnimationDuration = 0.3f;
     [self.superview addConstraints:@[topConstraint, bottomConstraint, leadingConstraint, trailingConstraint]];
 }
 
++ (UINib *)nib
+{
+    return [UINib nibWithNibName:NSStringFromClass([self class]) bundle:nil];
+}
+
 @end

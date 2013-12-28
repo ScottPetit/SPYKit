@@ -49,4 +49,6 @@
 
 - (void)spy_constrainEdgesToSuperviewWithInsets:(UIEdgeInsets)edgeInsets;
 
++ (UINib *)nib;
+
 @end
