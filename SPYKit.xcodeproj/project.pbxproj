@@ -75,6 +75,7 @@
 		D262BBAC18677C4500ED9642 /* UIViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewTests.m; sourceTree = "<group>"; };
 		D262BBAE1867838C00ED9642 /* UIViewController+SPYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SPYKit.h"; sourceTree = "<group>"; };
 		D262BBAF1867838C00ED9642 /* UIViewController+SPYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SPYKit.m"; sourceTree = "<group>"; };
+		D2D6C6DF186ECAB40030DCE3 /* SPYDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +188,7 @@
 				D262BB9518676AC400ED9642 /* Foundation */,
 				D262BB9618676AC400ED9642 /* UIKit */,
 				D262BBA6186771C100ED9642 /* SPYBlocks.h */,
+				D2D6C6DF186ECAB40030DCE3 /* SPYDefines.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

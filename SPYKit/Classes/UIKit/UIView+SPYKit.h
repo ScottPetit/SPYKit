@@ -45,4 +45,8 @@
  */
 - (void)spy_makeCircular;
 
+- (void)spy_constrainEdgesToSuperview;
+
+- (void)spy_constrainEdgesToSuperviewWithInsets:(UIEdgeInsets)edgeInsets;
+
 @end

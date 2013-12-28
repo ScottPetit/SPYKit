@@ -7,6 +7,7 @@
 //
 
 #import "UIView+SPYKit.h"
+#import "SPYDefines.h"
 
 static NSInteger const kAnimationDuration = 0.3f;
 
@@ -54,5 +55,23 @@ static NSInteger const kAnimationDuration = 0.3f;
     [self spy_setCornerRadius:(CGRectGetWidth(self.frame) / 2)];
 }
 
+- (void)spy_constrainEdgesToSuperview
+{
+    [self spy_constrainEdgesToSuperviewWithInsets:UIEdgeInsetsZero];
+}
+
+- (void)spy_constrainEdgesToSuperviewWithInsets:(UIEdgeInsets)insets
+{
+    UIView *superview = self.superview;
+    
+    SPYParameterAssert(superview);
+    
+    NSLayoutConstraint *topConstraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:superview attribute:NSLayoutAttributeTop multiplier:1.0 constant:insets.top];
+    NSLayoutConstraint *trailingConstraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeTrailing relatedBy:NSLayoutRelationEqual toItem:superview attribute:NSLayoutAttributeTrailing multiplier:1.0 constant:insets.right];
+    NSLayoutConstraint *bottomConstraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:superview attribute:NSLayoutAttributeBottom multiplier:1.0 constant:insets.bottom];
+    NSLayoutConstraint *leadingConstraint = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeLeading relatedBy:NSLayoutRelationEqual toItem:superview attribute:NSLayoutAttributeLeading multiplier:1.0 constant:insets.left];
+    
+    [self.superview addConstraints:@[topConstraint, bottomConstraint, leadingConstraint, trailingConstraint]];
+}
 
 @end
