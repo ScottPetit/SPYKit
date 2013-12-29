@@ -30,6 +30,7 @@
 		D262BBAD18677C4500ED9642 /* UIViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D262BBAC18677C4500ED9642 /* UIViewTests.m */; };
 		D262BBB01867838C00ED9642 /* UIViewController+SPYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D262BBAF1867838C00ED9642 /* UIViewController+SPYKit.m */; };
 		D2C4D3D0186EF35B0094508E /* SPYUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C4D3CF186EF35B0094508E /* SPYUtility.m */; };
+		D2E66FBB187042750052B57F /* SPYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E66FBA187042750052B57F /* SPYTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		D2C4D3CE186EF35B0094508E /* SPYUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPYUtility.h; sourceTree = "<group>"; };
 		D2C4D3CF186EF35B0094508E /* SPYUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPYUtility.m; sourceTree = "<group>"; };
 		D2D6C6DF186ECAB40030DCE3 /* SPYDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYDefines.h; sourceTree = "<group>"; };
+		D2E66FB9187042750052B57F /* SPYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPYTextView.h; sourceTree = "<group>"; };
+		D2E66FBA187042750052B57F /* SPYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPYTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +233,8 @@
 				D262BBAA18677B9A00ED9642 /* UIView+SPYKit.m */,
 				D262BBAE1867838C00ED9642 /* UIViewController+SPYKit.h */,
 				D262BBAF1867838C00ED9642 /* UIViewController+SPYKit.m */,
+				D2E66FB9187042750052B57F /* SPYTextView.h */,
+				D2E66FBA187042750052B57F /* SPYTextView.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 				D262BB9F18676C2800ED9642 /* UIColor+SPYKit.m in Sources */,
 				D262BB8E18676A3C00ED9642 /* main.m in Sources */,
 				D262BB9C18676B9C00ED9642 /* NSDictionary+SPYKit.m in Sources */,
+				D2E66FBB187042750052B57F /* SPYTextView.m in Sources */,
 				D262BB8C18676A3C00ED9642 /* SPYAppDelegate.m in Sources */,
 				D2C4D3D0186EF35B0094508E /* SPYUtility.m in Sources */,
 			);
