@@ -30,4 +30,6 @@
  */
 - (NSString *)spy_capitalizedString;
 
+- (NSRange)spy_range;
+
 @end

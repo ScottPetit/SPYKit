@@ -40,4 +40,9 @@
     return [self stringByReplacingCharactersInRange:NSMakeRange(0, 1) withString:[[self substringToIndex:1] capitalizedString]];
 }
 
+- (NSRange)spy_range
+{
+    return NSMakeRange(0, self.length);
+}
+
 @end

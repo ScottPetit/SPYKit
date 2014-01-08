@@ -29,7 +29,6 @@
     return self;
 }
 
-
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -58,20 +57,17 @@
     [self setNeedsDisplay];
 }
 
-
 - (void)insertText:(NSString *)string
 {
     [super insertText:string];
     [self setNeedsDisplay];
 }
 
-
 - (void)setAttributedText:(NSAttributedString *)attributedText
 {
     [super setAttributedText:attributedText];
     [self setNeedsDisplay];
 }
-
 
 - (void)setPlaceholder:(NSString *)string
 {
@@ -101,12 +97,10 @@
     self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:string attributes:attributes];
 }
 
-
 - (NSString *)placeholder
 {
     return self.attributedPlaceholder.string;
 }
-
 
 - (void)setAttributedPlaceholder:(NSAttributedString *)attributedPlaceholder
 {
@@ -120,20 +114,17 @@
     [self setNeedsDisplay];
 }
 
-
 - (void)setContentInset:(UIEdgeInsets)contentInset
 {
     [super setContentInset:contentInset];
     [self setNeedsDisplay];
 }
 
-
 - (void)setFont:(UIFont *)font
 {
     [super setFont:font];
     [self setNeedsDisplay];
 }
-
 
 - (void)setTextAlignment:(NSTextAlignment)textAlignment
 {
