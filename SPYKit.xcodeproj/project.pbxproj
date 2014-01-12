@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		283541B3EDB94FACA75E7CC7 /* libPods-SPYKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F3B4313CB540009E281FA2 /* libPods-SPYKitTests.a */; };
+		D22C16AF1882A5C10015822C /* NSArray+SPYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D22C16AE1882A5C10015822C /* NSArray+SPYKit.m */; };
 		D262BB4B186769FC00ED9642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D262BB4A186769FC00ED9642 /* Foundation.framework */; };
 		D262BB4D186769FC00ED9642 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D262BB4C186769FC00ED9642 /* CoreGraphics.framework */; };
 		D262BB4F186769FC00ED9642 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D262BB4E186769FC00ED9642 /* UIKit.framework */; };
@@ -46,6 +47,8 @@
 /* Begin PBXFileReference section */
 		7E70B689E5BB448F923AC954 /* Pods-SPYKitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPYKitTests.xcconfig"; path = "Pods/Pods-SPYKitTests.xcconfig"; sourceTree = "<group>"; };
 		C0F3B4313CB540009E281FA2 /* libPods-SPYKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SPYKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22C16AD1882A5C10015822C /* NSArray+SPYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SPYKit.h"; sourceTree = "<group>"; };
+		D22C16AE1882A5C10015822C /* NSArray+SPYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SPYKit.m"; sourceTree = "<group>"; };
 		D262BB47186769FC00ED9642 /* SPYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D262BB4A186769FC00ED9642 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D262BB4C186769FC00ED9642 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -220,6 +223,8 @@
 				D262BB9818676AF100ED9642 /* NSString+SPYKit.m */,
 				D262BB9A18676B9C00ED9642 /* NSDictionary+SPYKit.h */,
 				D262BB9B18676B9C00ED9642 /* NSDictionary+SPYKit.m */,
+				D22C16AD1882A5C10015822C /* NSArray+SPYKit.h */,
+				D22C16AE1882A5C10015822C /* NSArray+SPYKit.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -392,6 +397,7 @@
 				D262BBAB18677B9A00ED9642 /* UIView+SPYKit.m in Sources */,
 				D262BB9918676AF100ED9642 /* NSString+SPYKit.m in Sources */,
 				D262BB9F18676C2800ED9642 /* UIColor+SPYKit.m in Sources */,
+				D22C16AF1882A5C10015822C /* NSArray+SPYKit.m in Sources */,
 				D262BB8E18676A3C00ED9642 /* main.m in Sources */,
 				D262BB9C18676B9C00ED9642 /* NSDictionary+SPYKit.m in Sources */,
 				D2E66FBB187042750052B57F /* SPYTextView.m in Sources */,
