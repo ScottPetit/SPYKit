@@ -12,19 +12,20 @@
 
 - (NSUInteger)spy_indexOfString:(NSString *)string withOptions:(NSStringCompareOptions)options
 {
-    NSUInteger index = 0;
-    for (NSString *object in self)
+    return [self indexOfObjectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
+        return [obj compare:string options:NSCaseInsensitiveSearch] == NSOrderedSame;
+    }];
+}
+
+- (id)spy_randomObject
+{
+    if (![self count])
     {
-        if ([object isKindOfClass:[NSString class]])
-        {
-            if ([object compare:string options:options] == NSOrderedSame)
-            {
-                return index;
-            }
-        }
-        index++;
+        return nil;
     }
-    return NSNotFound;
+    
+    NSUInteger index = arc4random_uniform((u_int32_t)[self count]);
+    return [self objectAtIndex:index];
 }
 
 @end

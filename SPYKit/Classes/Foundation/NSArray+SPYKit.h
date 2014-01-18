@@ -10,4 +10,6 @@
 
 - (NSUInteger)spy_indexOfString:(NSString *)string withOptions:(NSStringCompareOptions)options;
 
+- (id)spy_randomObject;
+
 @end
