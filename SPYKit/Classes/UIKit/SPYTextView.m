@@ -77,21 +77,14 @@
     }
     
     NSMutableDictionary *attributes = [[NSMutableDictionary alloc] init];
-    if ([self isFirstResponder] && self.typingAttributes)
-    {
-        [attributes addEntriesFromDictionary:self.typingAttributes];
-    }
-    else
-    {
-        attributes[NSFontAttributeName] = self.font;
-        attributes[NSForegroundColorAttributeName] = [UIColor colorWithWhite:0.702f alpha:1.0f];
+    attributes[NSFontAttributeName] = self.font;
+    attributes[NSForegroundColorAttributeName] = [UIColor colorWithWhite:0.702f alpha:1.0f];
         
-        if (self.textAlignment != NSTextAlignmentLeft)
-        {
+    if (self.textAlignment != NSTextAlignmentLeft)
+    {
             NSMutableParagraphStyle *paragraph = [[NSMutableParagraphStyle alloc] init];
             paragraph.alignment = self.textAlignment;
             attributes[NSParagraphStyleAttributeName] = paragraph;
-        }
     }
     
     self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:string attributes:attributes];
