@@ -13,7 +13,7 @@
 - (NSUInteger)spy_indexOfString:(NSString *)string withOptions:(NSStringCompareOptions)options
 {
     return [self indexOfObjectPassingTest:^BOOL(id obj, NSUInteger idx, BOOL *stop) {
-        return [obj compare:string options:NSCaseInsensitiveSearch] == NSOrderedSame;
+        return [obj compare:string options:options] == NSOrderedSame;
     }];
 }
 

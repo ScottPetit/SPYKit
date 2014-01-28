@@ -71,7 +71,7 @@
 
 - (void)setPlaceholder:(NSString *)string
 {
-    if ([string isEqualToString:self.attributedPlaceholder.string])
+    if ([string isEqualToString:self.placeholder])
     {
         return;
     }
