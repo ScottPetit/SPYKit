@@ -27,12 +27,12 @@
 
 - (BOOL)spy_containsString:(NSString *)string
 {
-    return [self rangeOfString:string].location != NSNotFound;
+    return [self spy_containsString:string options:0];
 }
 
 - (BOOL)spy_containsString:(NSString *)string options:(NSStringCompareOptions)options
 {
-    return [self rangeOfString:string options:options].location != NSNotFound;
+    return [self rangeOfString:string options:options].length > 0;
 }
 
 - (NSString *)spy_capitalizedString

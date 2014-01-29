@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'SPYKit'
-  spec.version = '0.1.1'
+  spec.version = '0.1.2'
   spec.authors = {'Scott Petit' => 'petit.scott@gmail.com'}
   spec.homepage = 'https://github.com/ScottPetit/SPYKit'
   spec.summary = 'A Collection View Data Source and Delegate for the simple things'
