@@ -51,4 +51,6 @@
 
 + (UINib *)nib;
 
+- (CGPoint)spy_boundsCenter;
+
 @end

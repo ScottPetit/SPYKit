@@ -79,4 +79,9 @@ static NSInteger const kAnimationDuration = 0.3f;
     return [UINib nibWithNibName:NSStringFromClass([self class]) bundle:nil];
 }
 
+- (CGPoint)spy_boundsCenter
+{
+    return CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
+}
+
 @end
