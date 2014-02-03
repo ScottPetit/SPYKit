@@ -32,6 +32,7 @@
 		D262BBB01867838C00ED9642 /* UIViewController+SPYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D262BBAF1867838C00ED9642 /* UIViewController+SPYKit.m */; };
 		D2C4D3D0186EF35B0094508E /* SPYUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C4D3CF186EF35B0094508E /* SPYUtility.m */; };
 		D2E66FBB187042750052B57F /* SPYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E66FBA187042750052B57F /* SPYTextView.m */; };
+		D2FB0FEA189FE85F000FC703 /* UIBezierPath+SPYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FB0FE9189FE85F000FC703 /* UIBezierPath+SPYKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,8 @@
 		D2D6C6DF186ECAB40030DCE3 /* SPYDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPYDefines.h; sourceTree = "<group>"; };
 		D2E66FB9187042750052B57F /* SPYTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPYTextView.h; sourceTree = "<group>"; };
 		D2E66FBA187042750052B57F /* SPYTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPYTextView.m; sourceTree = "<group>"; };
+		D2FB0FE8189FE85F000FC703 /* UIBezierPath+SPYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+SPYKit.h"; sourceTree = "<group>"; };
+		D2FB0FE9189FE85F000FC703 /* UIBezierPath+SPYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+SPYKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +241,8 @@
 				D262BBAA18677B9A00ED9642 /* UIView+SPYKit.m */,
 				D262BBAE1867838C00ED9642 /* UIViewController+SPYKit.h */,
 				D262BBAF1867838C00ED9642 /* UIViewController+SPYKit.m */,
+				D2FB0FE8189FE85F000FC703 /* UIBezierPath+SPYKit.h */,
+				D2FB0FE9189FE85F000FC703 /* UIBezierPath+SPYKit.m */,
 				D2E66FB9187042750052B57F /* SPYTextView.h */,
 				D2E66FBA187042750052B57F /* SPYTextView.m */,
 			);
@@ -396,6 +401,7 @@
 				D262BBB01867838C00ED9642 /* UIViewController+SPYKit.m in Sources */,
 				D262BBAB18677B9A00ED9642 /* UIView+SPYKit.m in Sources */,
 				D262BB9918676AF100ED9642 /* NSString+SPYKit.m in Sources */,
+				D2FB0FEA189FE85F000FC703 /* UIBezierPath+SPYKit.m in Sources */,
 				D262BB9F18676C2800ED9642 /* UIColor+SPYKit.m in Sources */,
 				D22C16AF1882A5C10015822C /* NSArray+SPYKit.m in Sources */,
 				D262BB8E18676A3C00ED9642 /* main.m in Sources */,
